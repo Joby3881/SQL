@@ -1,0 +1,21 @@
+USE sakila;
+-- select *from actor;
+ -- select * from actor where first_name ="nick";
+-- select  *from actor where first_name ="nick"; (nick actor ka evary detials ane ka commad);
+-- select*from actor;
+-- select * from actor where first_name ="nick" or actor_id=3;
+-- select * from actor_info;
+-- select * from actor_info where film_info like 'animation%' and first_name like "goldie" ;
+-- select * from actor_info where film_info like 'animation%' and first_name like "goldie" or first_name="nick";
+-- select * from actor_info where film_info like 'animation%' or first_name like "goldie" and first_name="nick";
+-- select *from actor_info where film_info like 'animation%'; 
+-- select category, rating,title from film_list where category like 'sci-fi' and rating like 'pg';
+-- select category, rating,title from film_list where category like 'sci-fi' or category like 'family' and  rating like 'pg';
+-- select category, rating,title from film_list where (category like 'sci-fi' or category like 'family') and  rating like 'pg';
+-- select(2+2)*3;
+-- select (2+2)*3;(priority set first add and second multi);
+-- select *from actor where actor_id between 1 and 5;
+-- select *from actor where first_name between "b" and "d";
+-- select *from actor where actor_id in(1,5);
+-- select *from actor where actor_id in(1,5,6);
+
